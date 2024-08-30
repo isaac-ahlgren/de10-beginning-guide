@@ -22,7 +22,8 @@ module de10_starter(
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
-    wire button_pushed;
+    wire button_pushed1;
+	wire button_pushed2;
     reg led0;
 	reg led1;
 	reg led2;
@@ -39,18 +40,40 @@ module de10_starter(
 //  Structural coding
 //=======================================================
 
-    assign button_pushed = KEY[0] | KEY[1];
+    assign button_pushed1 = KEY[0];
+	assign button_pushed2 = KEY[1];
 
-    assign LEDR = {led0, led1, led2, led3, led4, led5, led6, led7, led8, led9}
+    assign LEDR = {led0, led1, led2, led3, led4, led5, led6, led7, led8, led9};
 
-    always @(button_pushed) begin
-	    if (button_pushed) begin
-		    {led0, led2, led4, led6, led8} = 5'b0;
-			{led1, led3, led5, led7, led9} = 5'b1;
+    always @(button_pushed1 or button_pushed2) begin
+	    if (button_pushed1) begin
+			led1 <= 1'b1;
+			led3 <= 1'b1;
+			led5 <= 1'b1;
+			led7 <= 1'b1;
+			led9 <= 1'b1;
         end
 		else begin
-			{led0, led2, led4, led6, led8} = 5'b1;
-			{led1, led3, led5, led7, led9} = 5'b0;
+			led1 <= 1'b0;
+			led3 <= 1'b0;
+			led5 <= 1'b0;
+			led7 <= 1'b0;
+			led9 <= 1'b0;
+		end
+
+		if (button_pushed2) begin
+			led0 <= 1'b1;
+			led2 <= 1'b1;
+			led4 <= 1'b1;
+			led6 <= 1'b1;
+			led8 <= 1'b1;
+        end
+		else begin
+			led0 <= 1'b0;
+			led2 <= 1'b0;
+			led4 <= 1'b0;
+			led6 <= 1'b0;
+			led8 <= 1'b0;
 		end
 	end
 endmodule
