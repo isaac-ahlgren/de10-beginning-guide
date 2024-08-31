@@ -11,7 +11,17 @@ My guide has been tested on Ubuntu 22.04 and Arch Linux.
 The guide will be split into 2 seperate parts: Simulation and Synthesis.
 We will first design a small little verilog design and simulate it's functionality using ModelSim.
 We will then synthesize the design and flash it onto the DE10-Lite FPGA to see our design in action.
+Because this is supposed to be beginner friendly, I will be explaining as much of the verilog syntax as possible during my examples.
+However, this is not a verilog tutorial. Verilog is a more nuanced language then what I will be covering in my tutorial.
+If you want to learn more about it, the best way is to create more projects using your FPGA.
+
+## I think there is an issue!
+If you think there is an issue or that something is missing, let me know! I'd appreciate it if you either raise an issue or submit a pull request about the change.
 
 ## Table of Contents
-- [Simulation](./1_simulation.md)
-- [Synthesis](./2_synthesis.md)
+- [Intro](./0_intro.md)
+- [ModelSim Install](./1_modelsim_install.md)
+- [First Design](./2_first_design.md)
+- [Simulation](./3_simulation.md)
+- [Quartus Install](./4_quartus_install.md)
+- [Synthesis](./5_synthesis.md)

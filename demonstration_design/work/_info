@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,49 @@ z2
 !i10f 100
 cModel Technology
 d/home/ikey/intelFPGA/20.1/modelsim_ase/bin
+vfirst_module
+Z0 !s110 1725145123
+!i10b 1
+!s100 4FL@LFFM[kI]hYznz@9Dk1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICSbY_;017z9da8dJUYehV1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ikey/repos/de10-beginning-guide/demonstration_design
+w1725133115
+8/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module.v
+F/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module.v
+!i122 10
+L0 3 39
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1725145123.000000
+!s107 /home/ikey/repos/de10-beginning-guide/demonstration_design/first_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfirst_module_tb
+R0
+!i10b 1
+!s100 NiMaj>]A9D@8o]mKfG:JL1
+R1
+IPUF@ON@eGUYS3Un?YEieD3
+R2
+R3
+w1725143924
+8/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module_tb.v
+F/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module_tb.v
+!i122 11
+L0 3 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ikey/repos/de10-beginning-guide/demonstration_design/first_module_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ikey/repos/de10-beginning-guide/demonstration_design/first_module_tb.v|
+!i113 1
+R6
+R7
