@@ -21,7 +21,7 @@ Download and move these files to your project directory.
 
 Now open up the quartus project file `template_project.qpf` by pressing the 'File' button and selecting 'Open Project'.
 
-Then add your verilog file for your first design to the project by clicking on the 'Project' button on top and selecting 'Add/Remove Files In Project'.
+**Then add your Verilog file for your first design (mine would be first_module.v) to the project by clicking on the 'Project' button on top and selecting 'Add/Remove Files In Project'. Do not add your testbench file.**
 
 After that, open up `template_project.v`, it should look something like this:
 
