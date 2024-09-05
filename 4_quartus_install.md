@@ -6,17 +6,17 @@ Before that however, we must first must install [Quartus] (https://www.intel.com
 
 Make the installer executable:
 
-```chmod +x qinst-lite-linux-23.1std.1-993.run```
+```sudo chmod +x qinst-lite-linux-23.1std.1-993.run```
 
 Run the installer and install Quartus:
 
 ```./qinst-lite-linux-23.1std.1-993.run ```
 
-Install Quartus into the `/opt` directory.
+Install Quartus into the home directory.
 
 To use these tools from your command line, add the following line to either `.bashrc` or `.zshrc`.
 
-``` export PATH=$PATH:/opt/quartus/bin ```
+``` export PATH=$PATH:~/quartus/bin ```
 
 Next, we need to setup the USBBlaster driver for Linux.
 

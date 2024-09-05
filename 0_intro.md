@@ -8,7 +8,6 @@ I've spent the last week or so encountering and fixing these small issues so thi
 
 This guide will primarily be about installing and using the development toolchain in Linux.
 My guide has been tested on Ubuntu 22.04 and Arch Linux.
-The guide will be split into 2 seperate parts: Simulation and Synthesis.
 We will first design a small little verilog design and simulate it's functionality using ModelSim.
 We will then synthesize the design and flash it onto the DE10-Lite FPGA to see our design in action.
 Because this is supposed to be beginner friendly, I will be explaining as much of the verilog syntax as possible during my examples.
