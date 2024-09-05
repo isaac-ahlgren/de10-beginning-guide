@@ -4,6 +4,7 @@ Now that we have a design that we know works in simulation, we are going to flas
 
 Before that however, we must first must install [Quartus] (https://www.intel.com/content/www/us/en/software-kit/661017/intel-quartus-prime-lite-edition-design-software-version-20-1-for-linux.html).
 
+## For Linux:
 Make the installer executable:
 
 ```sudo chmod +x qinst-lite-linux-23.1std.1-993.run```
@@ -39,6 +40,21 @@ Enter the following commands to do so:
 cd /lib/x86_64-linux-gnu/
 sudo ln -sf libudev.so.1 libudev.so.0
 ```
+
+## For Windows:
+Click on your installer file and follow the given instructions to install
+
+Then open 'Device Manager' and find the unrecognized device named 'Altera USB-Blaster'.
+
+Right click on this device and select update driver.
+
+Then select browse my computer for drivers.
+
+Then navigate to `C:\intelFPGA_lite\23.1std\quartus\drivers`.
+
+Then select ok and it should say that this device is working properly.
+
+Now restart Quartus.
 
 ## Table of Contents
 - [Intro](./0_intro.md)

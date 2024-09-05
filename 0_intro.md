@@ -4,6 +4,7 @@ Hello! This is a small guide for creating a small digital design for the DE10-Li
 
 The motivation for writing this is that the Intel development toolchain can be very intimidated for new people, particularly those who develop with Linux.
 There are an overwhelming amount of tools, little gimmicks, and a oversights in the toolchain that are obvious to seasoned developers but completely unintuitive to those who just want to quickly get their feet wet with a design.
+This guide will also go over Windows secific installation issues also when they arise and are substantial. 
 I've spent the last week or so encountering and fixing these small issues so this guide is a quick and easy way to get around them so noone has to waste time like I did.
 
 This guide will primarily be about installing and using the development toolchain in Linux.
