@@ -96,7 +96,7 @@ Then there is `always @(button1 or button2)`. `always` blocks are blocks of logi
 Finally, the block of logic inside the `always` statement executed are just simple if-else statements for assigning certain values to certain values depending on the values gotten from the `button1` and `button2` signals. If the `button1` signal is 1, then the all of the odd leds will bet set to 1.
 If the `button2` signal is 1, then all of the even leds will be set to 1.
 
-To finish the design, you end the module with a `endmodule` statement.
+**To finish the design, you end the module with a `endmodule` statement.**
 
 At the end of this, your module should look like:
 ```

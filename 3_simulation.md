@@ -1,8 +1,8 @@
 # Simulation
 
-Now that we have a design we can test and a testbench to to test it, it's time to simulate!.
+Now that we have a design we can test and a testbench to to test it, it's time to simulate!
 
-To compile your modules, press the 'compile all' button on the top toolbar.
+To compile your modules, press the 'Compile All' button on the top toolbar.
 
 Then, press the 'Simulate' button at the very top (illustrated below) and click the 'Start Simulation' button.
 
@@ -12,7 +12,11 @@ You then should get a menu that look like this:
 
 ![Starting_Sim](./images/starting_sim.png)
 
-Click on your tenchbench file to begin simulation.
+Click on your testbench file to begin simulation.
+
+If your signal display window or 'Wave window' is not open right now, you can press the 'View' tab at the top and press the 'Wave' buttom to open the window.
+
+![Open_Wave](./images/open_wave.png)
 
 To view signals, you can drag the signal objects from the Objects panel to the Wave window to see their output.
 
