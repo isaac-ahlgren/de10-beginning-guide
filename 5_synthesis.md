@@ -5,9 +5,9 @@ Now let's actually put our design on an FPGA!
 
 
 Start by opening up Quartus:
-```Quartus```
+```quartus```
 
-Then make note of the following files in `template_code`:
+Then make note of the following files in `de10-beginning-guide/template_code`:
 - `template_project.v`
 - `template_project.sdc`
 - `template_project.qsf`
@@ -17,9 +17,11 @@ These are top level design files specifcally for the DE10 Lite by Terasic.
 
 We need all of these in order to flash our design onto the FPGA.
 
-Start by opening up the quartus project file from the `template_code` directory.
+Download and move these files to your project directory.
 
-Then add your verilog file for your first design to the project by clicking on the "Project" button on top and selecting "Add/Remove Files In Project".
+Now open up the quartus project file `template_project.qpf` by pressing the 'File' button and selecting 'Open Project'.
+
+Then add your verilog file for your first design to the project by clicking on the 'Project' button on top and selecting 'Add/Remove Files In Project'.
 
 After that, open up `template_project.v`, it should look something like this:
 
