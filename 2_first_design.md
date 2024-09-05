@@ -6,11 +6,15 @@ Run this command to open up ModelSim:
 
 ```vsim```
 
-Create a project like so and name it whatever you want:
+Before creating a project, to create a folder to contain your project in your home directory (or anywhere you keep your projects on your computer).
+
+```mkdir ~/first_module```
+
+Create a project in your directory and name it whatever you want:
 
 ![modelsim_proj_create](./images/modelsim_proj_create.png)
 
-Create two new files and add them to your project:
+Create two new Verilog files and add them to your project:
 
 ![add_file](./images/add_file.png)
 
