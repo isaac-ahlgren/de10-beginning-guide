@@ -20,7 +20,11 @@ If your signal display window or 'Wave window' is not open right now, you can pr
 
 To view signals, you can drag the signal objects from the Objects panel to the Wave window to see their output.
 
+Change your "Run Length" to `1us` and press the zoom out button until your time markers are at about `5000ns`.
+
 You can then step through the simulation by pressing the 'Run' button a couple times.
+
+![Run_Button](./images/run_button.png)
 
 It might not look exactly like mine, but if you change the zoom of your Wave window you should get something close to this:
 
