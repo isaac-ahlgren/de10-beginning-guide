@@ -24,6 +24,8 @@ To use these tools from your command line, add the following line to either `.ba
 
 ``` export PATH=$PATH:~/intelFPGA/20.1/modelsim_ase/bin ```
 
+Then close and open your terminal again to load the new configuration.
+
 ## Table of Contents
 - [Intro](./0_intro.md)
 - [ModelSim Install](./1_modelsim_install.md)
