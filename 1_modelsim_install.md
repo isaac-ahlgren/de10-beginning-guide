@@ -2,6 +2,14 @@
 
 First things first, we need to download a Verilog simulator. For this tutorial, we will be using [ModelSim](https://www.intel.com/content/www/us/en/software-kit/750666/modelsim-intel-fpgas-standard-edition-software-version-20-1-1.html) (link is for both Windows and Linux).
 
+Install dependencies needed to run it with:
+
+```
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386 libncurses6:i386 libstdc++6:i386 lib32ncurses6 libxft2 libxft2:i386 libxext6 libxext6:i386  
+```
+
 Make the installer executable:
 
 ```sudo chmod +x ModelSimSetup-20.1.1.720-linux.run```
