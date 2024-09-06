@@ -2,16 +2,16 @@
 
 Now that we have a design that we know works in simulation, we are going to flash the desgin to our FPGA.
 
-Before that however, we must first must install [Quartus] (https://www.intel.com/content/www/us/en/software-kit/661017/intel-quartus-prime-lite-edition-design-software-version-20-1-for-linux.html).
+Before that however, we must first must install [Quartus](https://www.intel.com/content/www/us/en/software-kit/661017/intel-quartus-prime-lite-edition-design-software-version-20-1-for-linux.html).
 
 ## For Linux:
-Make the installer executable:
+You will receive a file called `Quartus-lite-20.1.0.711-linux.tar`.
 
-```sudo chmod +x qinst-lite-linux-23.1std.1-993.run```
+Double-click it and extract its contents.
 
-Run the installer and install Quartus:
+Then run the installer and install Quartus:
 
-```./qinst-lite-linux-23.1std.1-993.run ```
+```./setup.sh```
 
 Install Quartus into the home directory.
 
